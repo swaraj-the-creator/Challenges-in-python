@@ -12,7 +12,7 @@ totpw = pw * wheat
 totph = ph * honey
 total = totpm + totph + totps + totpw
 discount = 2
-gratot = total % discount
+gratot = total / discount
 print("\n===== BILL =====")
 print("Wheat ",wheat,"Kg ==",totpw)
 print("Milk ",milk,"packets ==",totpm)
