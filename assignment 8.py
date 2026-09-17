@@ -11,7 +11,7 @@ totps = ps * sugar
 totpw = pw * wheat
 totph = ph * honey
 total = totpm + totph + totps + totpw
-discount = 2
+discount = 20
 gratot = total / discount
 print("\n===== BILL =====")
 print("Wheat ",wheat,"Kg ==",totpw)
